@@ -1,4 +1,7 @@
 import { useState } from 'react';
+import addCart from "../assets/images/ajouter-au-panier.png";
+import trash from "../assets/images/corbeille.png";
+
 
 interface SkateboardInterface {
     skateboard: {
@@ -14,7 +17,7 @@ interface SkateboardInterface {
 
 function SkateboardCard({ skateboard, setTotalFavorites, setTotalCartItems }: SkateboardInterface,) {
     const [addPanier, setAddPanier] = useState(0);
-    const [isFavorite, setIsFavorite] = useState();
+    const [isFavorite, setIsFavorite] = useState<boolean>();
 
     function handleIsFavorite() {
         const newFav = !isFavorite;
@@ -41,8 +44,8 @@ function SkateboardCard({ skateboard, setTotalFavorites, setTotalCartItems }: Sk
                 <p id="price">{skateboard.price} EUR</p>
                 <div className='buttons-card'>
                     <button id="favorite" onClick={() => handleIsFavorite()}>{isFavorite ? "❤️" : "🖤"}</button>
-                    <button id="addPanier" onClick={() => handleAddToCart()}>{<img src="src/images/ajouter-au-panier.png" alt="add to cart" width="20" height="20" />}{addPanier}</button>
-                    <button id="corbeille" onClick={() => handleResetCart()}>{<img src="src/images/corbeille.png" alt="remove my cart" width="20" height="20" />}</button>
+                    <button id="addPanier" onClick={() => handleAddToCart()}>{<img src={addCart} alt="add to cart" width="20" height="20" />}{addPanier}</button>
+                    <button id="corbeille" onClick={() => handleResetCart()}>{<img src={trash} alt="remove my cart" width="20" height="20" />}</button>
                 </div>
             </div>
         </article>

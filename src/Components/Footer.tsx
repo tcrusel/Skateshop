@@ -1,4 +1,7 @@
 import './Footer.css';
+import logoInsta from "../assets/images/logo_insta.png";
+import logoFb from "../assets/images/logo_fb.png";
+import logoTiktok from "../assets/images/logo_tiktok.png";
 
 function Footer() {
     return (
@@ -12,9 +15,9 @@ function Footer() {
                 <div className='footer-top-right'>
                     <h4>Suivez-nous</h4>
                     <div className="social-icons">
-                        <a href="instagram"><img src="src/images/icon-instagram.png" alt="Instagram" /></a>
-                        <a href="facebook"><img src="src/images/icon-facebook.png" alt="Facebook" /></a>
-                        <a href="tiktok"><img src="src/images/icon-tiktok.png" alt="TikTok" /></a>
+                        <a href="instagram"><img src={logoInsta} alt="Instagram" /></a>
+                        <a href="facebook"><img src={logoFb} alt="Facebook" /></a>
+                        <a href="tiktok"><img src={logoTiktok} alt="TikTok" /></a>
                     </div>
                 </div>
             </div>

@@ -1,7 +1,20 @@
+import deck1 from "../assets/images/image1.png";
+import deck2 from "../assets/images/image2.png";
+import deck3 from "../assets/images/image3.png";
+import deck4 from "../assets/images/image4.png";
+import deck5 from "../assets/images/image5.png";
+import deck6 from "../assets/images/image6.png";
+import deck7 from "../assets/images/image7.png";
+import deck8 from "../assets/images/image8.png";
+import deck9 from "../assets/images/image9.png";
+import deck10 from "../assets/images/image10.png";
+import deck11 from "../assets/images/image11.png";
+import deck12 from "../assets/images/image12.png";
+
 const skateboards = [
     {
         id: 1,
-        image: "src/images/image1.png",
+        image: deck1,
         model: "ELEMENT",
         name: "Progress Madras Apse",
         size: "8.0",
@@ -9,7 +22,7 @@ const skateboards = [
     },
     {
         id: 2,
-        image: "src/images/image2.png",
+        image: deck2,
         model: "POWELL PERALTA",
         name: "Flight Deck Ripper",
         size: "7.8",
@@ -17,7 +30,7 @@ const skateboards = [
     },
     {
         id: 3,
-        image: "src/images/image3.png",
+        image: deck3,
         model: "BAKER",
         name: "Brand Logo Red",
         size: "8.5",
@@ -25,7 +38,7 @@ const skateboards = [
     },
     {
         id: 4,
-        image: "src/images/image4.png",
+        image: deck4,
         model: "SANTA CRUZ",
         name: "Screaming Hand",
         size: "8.25",
@@ -33,7 +46,7 @@ const skateboards = [
     },
     {
         id: 5,
-        image: "src/images/image5.png",
+        image: deck5,
         model: "PLAN B",
         name: "Team OG Deck",
         size: "7.7",
@@ -41,7 +54,7 @@ const skateboards = [
     },
     {
         id: 6,
-        image: "src/images/image6.png",
+        image: deck6,
         model: "FLIP",
         name: "HKD Black Deck",
         size: "8.0",
@@ -49,7 +62,7 @@ const skateboards = [
     },
     {
         id: 7,
-        image: "src/images/image7.png",
+        image: deck7,
         model: "CREATURE",
         name: "Gravette Hellraiser",
         size: "8.6",
@@ -57,7 +70,7 @@ const skateboards = [
     },
     {
         id: 8,
-        image: "src/images/image8.png",
+        image: deck8,
         model: "ZERO",
         name: "Single Skull Deck",
         size: "8.25",
@@ -65,7 +78,7 @@ const skateboards = [
     },
     {
         id: 9,
-        image: "src/images/image9.png",
+        image: deck9,
         model: "BAKER",
         name: "Reynolds American Made",
         size: "7.6",
@@ -73,7 +86,7 @@ const skateboards = [
     },
     {
         id: 10,
-        image: "src/images/image10.png",
+        image: deck10,
         model: "CREATURE",
         name: "Logo Outline Stumps",
         size: "8.6",
@@ -81,7 +94,7 @@ const skateboards = [
     },
     {
         id: 11,
-        image: "src/images/image11.png",
+        image: deck11,
         model: "GIRL",
         name: "Carroll 93 Til",
         size: "8.25",
@@ -89,7 +102,7 @@ const skateboards = [
     },
     {
         id: 12,
-        image: "src/images/image12.png",
+        image: deck12,
         model: "FLIP",
         name: "Odyssey Gold Deck",
         size: "8.0",

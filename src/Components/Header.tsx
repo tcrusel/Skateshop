@@ -1,4 +1,6 @@
-import './Header.css'
+import './Header.css';
+import logoSite from "../assets/images/logo.jpg";
+import cart from "../assets/images/panier.png";
 
 interface HeaderInterface {
     totalFavorites: number;
@@ -10,7 +12,7 @@ function Header({ totalFavorites, totalCartItems }: HeaderInterface) {
     return (
         <header>
             <div className='logo-title'>
-                <img id="logo" src="src/images/logo.jpg" alt="logo" width="40" height="40" />
+                <img id="logo" src={logoSite} alt="logo" width="40" height="40" />
                 <h1>Skateshop</h1>
             </div>
             <nav>
@@ -26,7 +28,7 @@ function Header({ totalFavorites, totalCartItems }: HeaderInterface) {
             <div className='buttons-nav'>
                 <span id="account"><a href="create your account">Create your account</a></span>
                 <button id="favoris">{<p id="logo-favorite">❤️</p>}{totalFavorites}</button>
-                <button id="panier">{<img src="src/images/panier.png" alt="panier" width="20" height="20" />}{totalCartItems}</button>
+                <button id="panier">{<img src={cart} alt="panier" width="20" height="20" />}{totalCartItems}</button>
             </div>
         </header>
     )
