@@ -1,5 +1,5 @@
 import './Footer.css';
-import logoInsta from "../assets/images/logo_insta.png";
+import logoInsta from "../assets/images/logo_insta.jpg";
 import logoFb from "../assets/images/logo_fb.png";
 import logoTiktok from "../assets/images/logo_tiktok.png";
 
@@ -15,9 +15,9 @@ function Footer() {
                 <div className='footer-top-right'>
                     <h4>Suivez-nous</h4>
                     <div className="social-icons">
-                        <a href="instagram"><img src={logoInsta} alt="Instagram" /></a>
-                        <a href="facebook"><img src={logoFb} alt="Facebook" /></a>
-                        <a href="tiktok"><img src={logoTiktok} alt="TikTok" /></a>
+                        <a href="instagram"><img src={logoInsta} alt="Instagram" width="40" height="auto" /></a>
+                        <a href="facebook"><img src={logoFb} alt="Facebook" width="33" height="auto" /></a>
+                        <a href="tiktok"><img src={logoTiktok} alt="TikTok" width="40" height="auto" /></a>
                     </div>
                 </div>
             </div>
